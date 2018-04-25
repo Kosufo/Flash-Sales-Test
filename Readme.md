@@ -9,23 +9,23 @@
 
 Create custom folder and clone this repo in this folder. Right now application server address setted to `http://localhost:3000`. Make sure this port is not listening.
 
-### Important! The seeder is running with the server. You need to shutdown process (`^C`) before running tests.
+#### Important! The seeder is running with the server. You need to shutdown process (`^C`) before running tests.
 
 ## 1. Prepare your environment
 
-### 1.1 Run node to install modules from package.json:
+#### 1.1 Run node to install modules from package.json:
 
 ```
 npm i
 ```
 
-### 1.2 Run mongodb service and add database with next name:
+#### 1.2 Run mongodb service and add database with next name:
 
 ```
 flash_api
 ```
 
-### 1.3. Run seeder:
+#### 1.3. Run seeder:
 
 ```
 npm run seeder
@@ -40,11 +40,11 @@ wallets
 
 The script will populate tables with data.
 
-### 1.4 API endpoints. 
+#### 1.4 API endpoints. 
 
 After running seeder you can test API endpoints (for ex. with Postman):
 
-### Important! The seeder is running with the server. You need to shutdown process (`^C`) before running tests.
+#### Important! The seeder is running with the server. You need to shutdown process (`^C`) before running tests.
 
 ```
 METHOD	ENDPOINT		        PARAMS		BODY		DESCRIPTION
@@ -74,8 +74,9 @@ ________________________________________________________________________________
 
 /GET	/sales/:userId/current	userId				    Get purchased product by User ID.
 								                        User ID is [uuid] field in table.
+```
 
-### 1.5 Unit & Integration Tests.
+## 2 Unit & Integration Tests.
 
 This platform provide user to test only products API methods by this command:
 
@@ -85,7 +86,7 @@ test-products
 
 You can edit file in `/test/products.js`
 
-### 1.6 Stress tests
+## 3 Stress tests
 
 Stress test need to be configured with some input data. Without this data test will be failed.
 Open `/test/purchase.js` file and find this section.
@@ -106,7 +107,7 @@ After this step you can run stress test with next command:
 test-purchase
 ```
 
-### 2 Consclusion
+#### 4. Consclusion
 The stress test will send 7 requests to API 1000 times. The last request show the company total balance. You can change number of iterations in `/test/purchase.js` by next parameter:
 
 ```
