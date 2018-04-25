@@ -1,0 +1,27 @@
+[{
+    "name": "Santa Cruz - Bronson",
+    "brand": "Santa Cruz",
+    "model": "Bronson",
+    "sku": "SCB-401",
+    "type": "DH",
+    "price": 3900,
+    "currency": "USD"
+},
+{
+    "name": "Santa Cruz - Nomad",
+    "brand": "Santa Cruz",
+    "model": "Nomad",
+    "sku": "SCN-402",
+    "type": "FR",
+    "price": 3800,
+    "currency": "USD"
+},
+{
+    "name": "Santa Cruz - Hightower",
+    "brand": "Santa Cruz",
+    "model": "Hightower",
+    "sku": "SCHT-403",
+    "type": "XC",
+    "price": 3900,
+    "currency": "USD"
+}]

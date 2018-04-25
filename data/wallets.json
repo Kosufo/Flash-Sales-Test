@@ -1,0 +1,20 @@
+[{
+    "uuid": 1,
+    "balance": 0.00,
+    "currency": "USD"
+},
+{
+    "uuid": 384849301,
+    "balance": 3000.00,
+    "currency": "USD"
+},
+{
+    "uuid": 384849302,
+    "balance": 20.00,
+    "currency": "USD"
+},
+{
+    "uuid": 384849303,
+    "balance": 0.00,
+    "currency": "USD"
+}]
